@@ -8,9 +8,7 @@ class Quiz extends Component {
     }
     render() {
         return (
-            <div>
-                <div name='QuizQuestion'>{quizData.quiz_questions[0].instruction_text}</div>
-            </div> 
+            <div class='QuizQuestion'>{quizData.quiz_questions[0].instruction_text}</div>
         );
     }
 }
